@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Class cfg
+ * provided data for DB connect
+ */
+
+final class cfg{
+    public static $siteconf = array(
+        'host' => 'hostname',
+        'dbhost' => 'base host',
+        'dbname' => 'base name',
+        'dbuser' => 'base user',
+        'dbpass' => 'base pass',
+        'debug' => true,
+    );
+}
