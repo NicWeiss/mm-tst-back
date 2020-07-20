@@ -22,3 +22,8 @@ dispatcher :: add('api/remove_product', array(
     'control_class' => 'control\product',
     'control_function' => 'remove_product'
 ));
+
+dispatcher :: add('api/edit_product', array(
+    'control_class' => 'control\product',
+    'control_function' => 'edit_product'
+));

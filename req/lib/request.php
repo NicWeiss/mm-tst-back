@@ -32,6 +32,11 @@ final class request{
         return $res;
     }
 
+    public static function get_from_client_Json($name){
+        $data =  json_decode(file_get_contents('php://input'), true);
+        return $data[$name];
+    }
+
     public static function init($url = null){
         if (!$url)
             $url = $_SERVER['REQUEST_URI'];
