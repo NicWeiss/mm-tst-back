@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95aba8f7-61a1-4985-a67f-f39508a74673" name="Default Changelist" comment="" />
+    <list default="true" id="95aba8f7-61a1-4985-a67f-f39508a74673" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/motmom_back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/motmom_back.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req/control/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/req/control/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req/control/stub.php" beforeDir="false" afterPath="$PROJECT_DIR$/req/control/stub.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req/control/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/req/control/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req/defines.php" beforeDir="false" afterPath="$PROJECT_DIR$/req/defines.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req/dispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/req/dispatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req/lib/dba.php" beforeDir="false" afterPath="$PROJECT_DIR$/req/lib/dba.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req/lib/request.php" beforeDir="false" afterPath="$PROJECT_DIR$/req/lib/request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req/model/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/req/model/base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/req/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req/std.php" beforeDir="false" afterPath="$PROJECT_DIR$/req/std.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/config.ini.example" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +125,7 @@
       <workItem from="1594212513896" duration="22000" />
       <workItem from="1595104045778" duration="1007000" />
       <workItem from="1595105595298" duration="2480000" />
+      <workItem from="1595241895366" duration="5476000" />
     </task>
     <servers />
   </component>

@@ -140,6 +140,7 @@ final class dba{
     }
 
     public static function init(){
+
         self::$link = mysqli_connect(cfg:: $siteconf['dbhost'], cfg:: $siteconf['dbuser'],
             cfg :: $siteconf['dbpass'], cfg :: $siteconf['dbname']);
         if (!self :: $link)
