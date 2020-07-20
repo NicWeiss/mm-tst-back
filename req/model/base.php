@@ -9,6 +9,9 @@ use lib\dba as dba;
  */
 final class base
 {
+    /**
+     * @return bool
+     */
     public static function add_product()
     {
         $DB = DB_PRODUCTS;
@@ -17,27 +20,29 @@ final class base
     }
 
 
-    public static function edit($DB, $id, $name, $description, $doctype = "", $data = "")
+    public static function edit_product($id, $field, $value)
     {
-        $additional_sql = "";
-        if ($DB == DB_ELEMENT){
-            $additional_sql = ", `doctype`= '$doctype',`data`= '$data'";
-        }
-        $sql = "UPDATE $DB SET 
-            `name`= '$name', `description`= '$description',  `update_time` = NOW() $additional_sql 
-            WHERE `id`=$id";
+        $DB = DB_PRODUCTS;
+        $sql = "UPDATE $DB SET `$field`= '$value'  WHERE `id`=$id";
         return dba:: query($sql);
     }
 
-
-    public static function delete_by_id($DB, $id)
+    /**
+     * @param $id
+     * @return bool
+     */
+    public static function remove_product($id)
     {
+        $DB = DB_PRODUCTS;
         $sql = "DELETE FROM  $DB WHERE `id`=$id";
         return dba:: query($sql);
     }
 
 
-
+    /**
+     * @param $filter
+     * @return array
+     */
     public static function get_products($filter)
     {
         $DB = DB_PRODUCTS;
