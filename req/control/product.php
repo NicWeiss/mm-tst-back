@@ -35,7 +35,7 @@ class product
         $id = $product['id'];
         $key = $product['key'];
         $value = $product['value'];
-        $error = "";
+        $error = "none";
         $validate = true;
 
         if($key == "name"){
@@ -52,9 +52,10 @@ class product
             }
 
         if ($key == "datetime"){
-            if(!self::validateDateTime($value, 'd.m.Y H:i'))
-            $error = "Некорректные дата или время. Ожидается ДД.ММ.ГГГГ ЧЧ:ММ" ;
-            $validate = false;
+            if(!self::validateDateTime($value, 'd.m.Y H:i')) {
+                $error = "Некорректные дата или время. Ожидается ДД.ММ.ГГГГ ЧЧ:ММ";
+                $validate = false;
+            }
         }
 
         if(!$validate){
